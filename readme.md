@@ -25,22 +25,10 @@ Serial port commands detected so far
 | `VOL,n`          | `VOL,10`                 | Set           | Set volume level (0-15)                  | `VOL,OK`                          | Works reliably |
 | `SQL`            | `SQL`                    | Get           | Get current squelch level                | `SQL,3`                           | - |
 | `SQL,n`          | `SQL,8`                  | Set           | Set squelch level (0-15 recommended)     | `SQL,OK`                          | Works reliably |
-| `QSH,kHz`        | `QSH,1037000`            | Set           | **Tune to frequency** (in kHz)           | `QSH,OK`                          | **Best frequency command found** |
-
-### Frequency Format
-- Must be sent in **kHz** (not MHz).
-- Examples:
-  - 103.7 MHz → `QSH,1037000`
-  - 145.425 MHz → `QSH,1454250`
-  - 446.00625 MHz → `QSH,4460062`
+| `QSH,kHz`        | `QSH,1037000`            | Set           | **Tune to frequency** (in Hz)            | `QSH,OK`                          | **Best frequency command found** |
 
 ---
 
 ## Python Example
 
-```python
-def tune(mhz: float):
-    khz = int(mhz * 1000)
-    ser.write(f"QSH,{khz}\r".encode('ascii'))
-    time.sleep(0.4)
-    print("Tuned to", mhz, "MHz")
+See file ubcd260dn_control.py
