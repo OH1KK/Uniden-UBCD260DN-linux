@@ -10,6 +10,10 @@ huhti 28 23:28:29 radiolinux kernel: cdc_acm 3-4.1:1.0: ttyACM0: USB ACM device
 ````
 You can use port /dev/ttyACM0 to talk with a scanner. Use 115200-n-8-1 baudrate.
 
+````
+picocom -s 115200 --echo /dev/ttyACM0
+````
+
 Serial port commands detected so far
 
 # UBCD260DN / BCD260DN Serial Commands
