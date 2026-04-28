@@ -29,7 +29,45 @@ Serial port commands detected so far
 
 ---
 
+## Unknown command
+
+Following commands do not give ERR message. No idea what those do. 
+
+````
+BLT
+BKL
+DUD
+KBP
+CNT
+SCN
+VOL Prints volume level
+SQL Prints Squelch level
+PRI
+SHK
+WXS
+CLR
+MDL Prints model. Example: UBCD260DN
+VER Prints version. Example: Version 1.00.07
+CIN
+SSP
+TON
+CSG
+CSP
+SLS
+SCO
+LOF
+GLF
+RIE
+GIE
+DBC
+SGP
+PBS
+CBS
+EPG
+PRG Enters programming mode - potentally dangerous
+````
+
 ## Python Examples
 
-f.py - quicky set frequency f.py 103.7
-ubcd260dn_control.py - interactive shell example
+* f.py - quicky set frequency
+* ubcd260dn_control.py - interactive shell example
