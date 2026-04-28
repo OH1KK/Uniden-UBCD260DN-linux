@@ -33,7 +33,7 @@ Serial port commands detected so far
 
 ---
 
-## Unknown command
+## Unknown commands
 
 Following commands do not give ERR message. No idea what those do. 
 
