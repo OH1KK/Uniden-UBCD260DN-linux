@@ -1,4 +1,4 @@
-When you connect UBCD260DN into PC, it detects serial port
+When you connect Uniden UBCD260DN scanner into PC, it detects radio's serial port
 
 ````
 huhti 28 23:28:29 radiolinux kernel: usb 3-4.1: new full-speed USB device number 7 using xhci_hcd
@@ -8,7 +8,7 @@ huhti 28 23:28:29 radiolinux kernel: usb 3-4.1: Product: UBCD260DN Serial Port
 huhti 28 23:28:29 radiolinux kernel: usb 3-4.1: Manufacturer: UNIDEN AMERICA CORP.   
 huhti 28 23:28:29 radiolinux kernel: cdc_acm 3-4.1:1.0: ttyACM0: USB ACM device
 ````
-You can use port /dev/ttyACM0 to talk with a scanner.
+You can use port /dev/ttyACM0 to talk with a scanner. Use 115200-n-8-1 baudrate.
 
 Serial port commands detected so far
 
