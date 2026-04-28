@@ -1,6 +1,7 @@
 When you connect Uniden UBCD260DN scanner into PC, it detects radio's serial port
 
 ````
+journalctl -k --grep usb 
 huhti 28 23:28:29 radiolinux kernel: usb 3-4.1: new full-speed USB device number 7 using xhci_hcd
 huhti 28 23:28:29 radiolinux kernel: usb 3-4.1: New USB device found, idVendor=1965, idProduct=001a, bcdDevice= 1.00
 huhti 28 23:28:29 radiolinux kernel: usb 3-4.1: New USB device strings: Mfr=1, Product=2, SerialNumber=0
