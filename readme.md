@@ -25,7 +25,7 @@ Serial port commands detected so far
 | `VOL,n`          | `VOL,10`                 | Set           | Set volume level (0-15)                  | `VOL,OK`                          | Works reliably |
 | `SQL`            | `SQL`                    | Get           | Get current squelch level                | `SQL,3`                           | - |
 | `SQL,n`          | `SQL,8`                  | Set           | Set squelch level (0-15 recommended)     | `SQL,OK`                          | Works reliably |
-| `QSH,kHz`        | `QSH,1037000`            | Set           | **Tune to frequency** (in Hz)            | `QSH,OK`                          | **Best frequency command found** |
+| `QSH,kHz`        | `QSH,1037000`            | Set           | **Tune to frequency** (in 100 Hz)        | `QSH,OK`                          | For example 103.7Mhz -> 1037000 |
 
 ---
 
