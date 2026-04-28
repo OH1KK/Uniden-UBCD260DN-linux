@@ -54,6 +54,7 @@ TON
 CSG
 CSP
 SLS
+STS Prints radio status
 SCO
 LOF
 GLF
