@@ -19,12 +19,11 @@ Serial port commands detected so far
 | Command          | Example                  | Direction     | Description                              | Response Example                  | Notes |
 |------------------|--------------------------|---------------|------------------------------------------|-----------------------------------|-------|
 | `VER`            | `VER`                    | Get           | Firmware version                         | `VER,Version 1.00.07`             | - |
-| `STS`            | `STS`                    | Get           | Full scanner status                      | `STS,011000,...145.4250...`       | Very detailed |
-| `GLG`            | `GLG`                    | Get           | Current frequency, mode and search info  | `GLG,0145.4250,FM,0,0,...`        | Most useful for current freq |
+| `STS`            | `STS`                    | Get           | Full scanner status                      | `STS,011000,...145.4250...`       | - |
 | `VOL`            | `VOL`                    | Get           | Get current volume level                 | `VOL,9`                           | - |
-| `VOL,n`          | `VOL,10`                 | Set           | Set volume level (0-15)                  | `VOL,OK`                          | Works reliably |
+| `VOL,n`          | `VOL,10`                 | Set           | Set volume level (0-15)                  | `VOL,OK`                          | - |
 | `SQL`            | `SQL`                    | Get           | Get current squelch level                | `SQL,3`                           | - |
-| `SQL,n`          | `SQL,8`                  | Set           | Set squelch level (0-15 recommended)     | `SQL,OK`                          | Works reliably |
+| `SQL,n`          | `SQL,8`                  | Set           | Set squelch level (0-15 recommended)     | `SQL,OK`                          | - |
 | `QSH,freq`       | `QSH,1037000`            | Set           | **Tune to frequency** (in 100 Hz)        | `QSH,OK`                          | For example 103.7Mhz -> 1037000 |
 
 ---
