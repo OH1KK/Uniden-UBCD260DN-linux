@@ -53,10 +53,14 @@ CLR
 MDL Prints model. Example: UBCD260DN
 VER Prints version. Example: Version 1.00.07
 CIN
+CIN,
 SSP
+SSP,
 TON
+TON,
 CSG
 CSP
+CSP,
 SLS
 STS Prints radio status
 SCO
@@ -65,11 +69,14 @@ GLF
 RIE
 GIE
 DBC
+DBC,
 SGP
+SGP,
 PBS
 CBS
-EPG
-PRG Enters programming mode - potentally dangerous
+CBS,
+EPG 
+PRG Enters programming mode - potentally dangerous?
 ````
 
 ## Python Examples
