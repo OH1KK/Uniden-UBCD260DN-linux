@@ -14,7 +14,7 @@ Serial port commands detected so far
 
 # UBCD260DN / BCD260DN Serial Commands
 
-## ✅ Fully Working Commands
+## Fully Working Commands
 
 | Command          | Example                  | Direction     | Description                              | Response Example                  | Notes |
 |------------------|--------------------------|---------------|------------------------------------------|-----------------------------------|-------|
