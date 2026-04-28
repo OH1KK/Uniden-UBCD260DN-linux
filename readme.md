@@ -29,6 +29,7 @@ Serial port commands detected so far
 
 ---
 
-## Python Example
+## Python Examples
 
-See file ubcd260dn_control.py
+f.py - quicky set frequency f.py 103.7
+ubcd260dn_control.py - interactive shell example
