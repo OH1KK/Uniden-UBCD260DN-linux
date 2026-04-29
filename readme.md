@@ -41,4 +41,4 @@ Radio seems to have similator protocol like BCD996XT, with some changes. BCD996X
 
 * f.py - quicky set frequency
 * ubcd260dn_control.py - interactive shell example
-* UBCD260DN_backup.py - script to backup/resotre radio settings and memory channels
+* UBCD260DN_backup.py - script to backup/restore radio settings and memory channels
