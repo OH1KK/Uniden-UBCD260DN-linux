@@ -33,53 +33,12 @@ Serial port commands detected so far
 
 ---
 
-## Unknown commands
+## Other commands
 
-Following commands do not give ERR message. Most of commands give NG message.
-
-````
-BLT
-BKL
-DUD
-KBP
-CNT
-SCN
-VOL Prints volume level
-SQL Prints Squelch level. Range 0-15.
-PRI
-SHK
-WXS
-CLR
-MDL Get model name. Example: UBCD260DN
-VER Get version. Example: Version 1.00.07
-CIN
-CIN,
-SSP
-SSP,
-TON
-TON,
-CSG
-CSP Service Scan write to target ?
-CSP, Server Scan read from target ?
-SLS
-STS Prints radio status
-SCO
-LOF
-GLF
-RIE
-GIE
-DBC
-DBC,
-SGP
-SGP,
-PBS
-CBS
-CBS,
-EPG 
-PRG Enters programming mode - potentally dangerous?
-````
+Radio seems to have similator protocol like BCD996XT, with some changes. BCD996XT protocol spec is available at https://info.uniden.com/twiki/pub/UnidenMan4/BCD996XTFirmwareUpdate/BCD996XT_v1.04.00_Protocol.pdf
 
 ## Python Examples
 
 * f.py - quicky set frequency
 * ubcd260dn_control.py - interactive shell example
+* UBCD260DN_backup.py - script to backup/resotre radio settings and memory channels
