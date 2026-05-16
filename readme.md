@@ -34,7 +34,21 @@ Serial port commands detected so far
 | `SQL,n`          | `SQL,8`                  | Set           | Set squelch level (0-15 recommended)     | `SQL,OK`                          | - |
 | `QSH,freq`       | `QSH,1037000`            | Set           | **Tune to frequency** (in 100 Hz)        | `QSH,OK`                          | For example 103.7Mhz -> 1037000 |
 
----
+Key press commands
+
+````
+KEY,E,P = Edit name
+KEY,F,P = Function button
+KEY,G,P = Select service
+KEY,H,P = Hold/Scan
+KEY,L,P = Temporary lockout
+KEY,M,P = Program channel menu
+KEY,P,P = Priority scan
+KEY,Q,P = Go to tone out
+KEY,S,P = Start scan
+KEY,V,P = Backlight brightness
+KEY,W,P = Input frequency (!)
+````
 
 ## Other commands
 
